@@ -106,6 +106,7 @@ public class MainActivity extends Activity {
         listDataHeader.add("1st Semester");
         listDataHeader.add("2nd Semester ");
         listDataHeader.add("3rd Semester");
+        listDataHeader.add("4th Semester");
 
         // Adding child data
         List<String> sem1 = new ArrayList<String>();
@@ -114,7 +115,6 @@ public class MainActivity extends Activity {
         sem1.add("Calculus");
         sem1.add("Statistics I");
         sem1.add("Fundamentals of C-Programming");
-
 
 
         List<String> sem2 = new ArrayList<String>();
@@ -132,8 +132,18 @@ public class MainActivity extends Activity {
         sem3.add("Computer Architecture");
         sem3.add("Fundamental of Management");
 
+        List<String> sem4 = new ArrayList<String>();
+        sem4.add("Database Management System");
+        sem4.add("Theory of Computation");
+        sem4.add("Computer Graphics");
+        sem4.add("Technical Writing");
+        sem4.add("Introduction to cognitive Science");
+
+
+
         listDataChild.put(listDataHeader.get(0), sem1); // Header, Child data
         listDataChild.put(listDataHeader.get(1), sem2);
         listDataChild.put(listDataHeader.get(2), sem3);
+        listDataChild.put(listDataHeader.get(3), sem4);
     }
 }
